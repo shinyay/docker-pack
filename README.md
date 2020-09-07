@@ -3,6 +3,16 @@
 Overview
 
 ## Description
+### Retrieve CLI Binary
+```
+$ curl -sSL "https://github.com/buildpacks/pack/releases/download/v0.13.1/pack-v0.13.1-linux.tgz" |tar -xvz
+$ chmod +x pack
+```
+
+### Build Container image
+```
+$ docker build -t shinyay/pack .
+```
 
 ## Demo
 
